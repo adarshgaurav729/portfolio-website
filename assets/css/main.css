@@ -2476,34 +2476,40 @@ ul.social li a.fa-envelope { background: #db4437 !important; }
 #nav ul li {
     margin-left: 25px !important; /* Menu items ke beech gap */
     margin-right: 0 !important;
-}/* --- Final Mobile Alignment Fix --- */
+}/* --- Mobile Layout Final Fix --- */
 @media screen and (max-width: 736px) {
-    /* Header container ko row se column mein badalne ke liye */
     #header {
         display: flex !important;
         flex-direction: column !important; 
         align-items: center !important;
+        justify-content: center !important;
         text-align: center !important;
-        padding: 60px 20px !important;
+        padding: 40px 20px !important;
         height: auto !important;
+        min-height: 100vh !important; /* Screen ki poori height lene ke liye */
     }
 
-    /* Photo ko center aur bada karne ke liye */
     .image.avatar {
-        margin: 0 auto 20px auto !important;
-        float: none !important; /* Agar pehle se float ho toh hatane ke liye */
-        display: block !important;
-        width: 160px !important;
-        height: 160px !important;
+        margin: 0 0 30px 0 !important; /* Image ke niche 30px ka gap */
+        float: none !important;
+        display: inline-block !important;
+        position: relative !important;
+        width: 150px !important;
+        height: 150px !important;
     }
 
-    /* "Hey Adarsh" text ko niche lane ke liye */
     #header h1 {
         position: relative !important;
+        margin: 0 !important; 
+        padding: 0 !important;
         top: 0 !important;
-        margin-top: 15px !important;
         font-size: 1.8em !important;
-        line-height: 1.3 !important;
+        line-height: 1.2 !important;
         width: 100% !important;
+    }
+
+    #header p {
+        margin-top: 20px !important;
+        font-size: 1em !important;
     }
 }
