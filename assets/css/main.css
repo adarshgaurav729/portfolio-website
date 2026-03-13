@@ -2490,7 +2490,7 @@ ul.social li a.fa-envelope { background: #db4437 !important; }
     }
 
     .image.avatar {
-        margin: 0 0 30px 0 !important; /* Image ke niche 30px ka gap */
+        margin: 0 0 80px 0 !important; /* Image ke niche 30px ka gap */
         float: none !important;
         display: inline-block !important;
         position: relative !important;
@@ -2500,7 +2500,7 @@ ul.social li a.fa-envelope { background: #db4437 !important; }
 
     #header h1 {
         position: relative !important;
-        margin: 80px !important; 
+        margin: 0 0 150px !important; 
         padding: 0 !important;
         top: 40px !important;
         font-size: 1.8em !important;
